@@ -1,0 +1,8 @@
+{
+  "cmake.generator": "Ninja",
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.configureArgs": [
+    "-DCMAKE_TOOLCHAIN_FILE=${workspaceFolder}/toolchain-gcc.cmake"
+  ],
+  "cmake.configureOnOpen": true
+}

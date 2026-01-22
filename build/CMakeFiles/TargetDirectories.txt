@@ -1,0 +1,14 @@
+C:/Workspace/rapid-craft/build/CMakeFiles/edit_cache.dir
+C:/Workspace/rapid-craft/build/CMakeFiles/rebuild_cache.dir
+C:/Workspace/rapid-craft/build/packages/analyzer/CMakeFiles/intrinsics_gen.dir
+C:/Workspace/rapid-craft/build/packages/analyzer/CMakeFiles/vt_gen.dir
+C:/Workspace/rapid-craft/build/packages/analyzer/CMakeFiles/omp_gen.dir
+C:/Workspace/rapid-craft/build/packages/analyzer/CMakeFiles/acc_gen.dir
+C:/Workspace/rapid-craft/build/packages/analyzer/CMakeFiles/target_parser_gen.dir
+C:/Workspace/rapid-craft/build/packages/analyzer/CMakeFiles/clang-tablegen-targets.dir
+C:/Workspace/rapid-craft/build/packages/analyzer/CMakeFiles/rapid-craft-analyzer.dir
+C:/Workspace/rapid-craft/build/packages/analyzer/CMakeFiles/edit_cache.dir
+C:/Workspace/rapid-craft/build/packages/analyzer/CMakeFiles/rebuild_cache.dir
+C:/Workspace/rapid-craft/build/packages/swud_indexer/CMakeFiles/swud_indexer.dir
+C:/Workspace/rapid-craft/build/packages/swud_indexer/CMakeFiles/edit_cache.dir
+C:/Workspace/rapid-craft/build/packages/swud_indexer/CMakeFiles/rebuild_cache.dir

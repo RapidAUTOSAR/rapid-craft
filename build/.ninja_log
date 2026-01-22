@@ -1,0 +1,8 @@
+# ninja log v7
+26	648	7908114142170535	packages/swud_indexer/CMakeFiles/swud_indexer.dir/src/main.cpp.obj	76db37aa1801fbd1
+36	798	7908114142275756	packages/swud_indexer/CMakeFiles/swud_indexer.dir/src/storage_sqlite.cpp.obj	3e7c8abf496cdcc8
+30	857	7908114142210540	packages/swud_indexer/CMakeFiles/swud_indexer.dir/src/extractor_clang.cpp.obj	22c1846e9461f5c7
+858	1088	7908114150493822	packages/swud_indexer/swud_indexer.exe	508178234fc58523
+15	8767	7908114142065476	packages/analyzer/CMakeFiles/rapid-craft-analyzer.dir/src/main.cpp.obj	2ae08f5e4af21817
+20	11501	7908114142125425	packages/analyzer/CMakeFiles/rapid-craft-analyzer.dir/src/CallGraphCollector.cpp.obj	3c56ed6711e8b6c9
+11502	12080	7908114256936411	packages/analyzer/rapid-craft-analyzer.exe	b764f883711392f0

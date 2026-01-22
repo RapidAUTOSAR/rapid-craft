@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Analyzer",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/packages/analyzer/rapid-craft-analyzer.exe",
+      "args": [
+        "--version"
+      ],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "MIMode": "gdb"
+    }
+  ]
+}

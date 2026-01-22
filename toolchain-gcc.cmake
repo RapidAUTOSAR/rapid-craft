@@ -1,0 +1,10 @@
+set(CMAKE_SYSTEM_NAME Windows)
+
+set(CMAKE_C_COMPILER gcc)
+set(CMAKE_CXX_COMPILER g++)
+
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+
+# static lib 문제 줄이기
+set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")

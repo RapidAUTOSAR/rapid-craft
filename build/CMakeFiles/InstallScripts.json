@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Workspace/rapid-craft/build/cmake_install.cmake",
+		"C:/Workspace/rapid-craft/build/packages/analyzer/cmake_install.cmake",
+		"C:/Workspace/rapid-craft/build/packages/swud_indexer/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

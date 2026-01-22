@@ -6,6 +6,21 @@
 </head>
 <body>
   <h1>Rapid Craft</h1>
-  <p>Electron environment is ready.</p>
+
+  <button id="btnRun">Run Analyzer</button>
+
+  <h3>Result</h3>
+  <pre id="output"></pre>
+
+  <script>
+    document.getElementById("btnRun").onclick = async () => {
+      const result = await window.rapidCraft.runAnalyzer([
+        "--version"
+      ]);
+
+      document.getElementById("output").textContent =
+        JSON.stringify(result, null, 2);
+    };
+  </script>
 </body>
 </html>
