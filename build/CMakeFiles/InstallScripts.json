@@ -2,8 +2,14 @@
 	"InstallScripts" : 
 	[
 		"C:/Workspace/rapid-craft/build/cmake_install.cmake",
+		"C:/Workspace/rapid-craft/build/packages/common/cmake_install.cmake",
 		"C:/Workspace/rapid-craft/build/packages/analyzer/cmake_install.cmake",
-		"C:/Workspace/rapid-craft/build/packages/swud_indexer/cmake_install.cmake"
+		"C:/Workspace/rapid-craft/build/packages/sud/indexer/cmake_install.cmake",
+		"C:/Workspace/rapid-craft/build/packages/sud/diagrams/cmake_install.cmake",
+		"C:/Workspace/rapid-craft/build/packages/sud/diagrams/call-graph/cmake_install.cmake",
+		"C:/Workspace/rapid-craft/build/packages/sud/diagrams/class-diagram/cmake_install.cmake",
+		"C:/Workspace/rapid-craft/build/packages/sud/diagrams/sequence-diagram/cmake_install.cmake",
+		"C:/Workspace/rapid-craft/build/packages/sud/diagrams/activity-diagram/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

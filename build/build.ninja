@@ -64,6 +64,76 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # C:/Workspace/rapid-craft/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target rapid_common
+
+
+#############################################
+# Order-only phony target for rapid_common
+
+build cmake_object_order_depends_target_rapid_common: phony || .
+
+build packages/common/CMakeFiles/rapid_common.dir/storage/SqliteStore.cpp.obj: CXX_COMPILER__rapid_common_unscanned_ C$:/Workspace/rapid-craft/packages/common/storage/SqliteStore.cpp || cmake_object_order_depends_target_rapid_common
+  DEP_FILE = packages\common\CMakeFiles\rapid_common.dir\storage\SqliteStore.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Workspace/rapid-craft/packages/common
+  OBJECT_DIR = packages\common\CMakeFiles\rapid_common.dir
+  OBJECT_FILE_DIR = packages\common\CMakeFiles\rapid_common.dir\storage
+  TARGET_SUPPORT_DIR = packages\common\CMakeFiles\rapid_common.dir
+
+build packages/common/CMakeFiles/rapid_common.dir/puml/PumlWriter.cpp.obj: CXX_COMPILER__rapid_common_unscanned_ C$:/Workspace/rapid-craft/packages/common/puml/PumlWriter.cpp || cmake_object_order_depends_target_rapid_common
+  DEP_FILE = packages\common\CMakeFiles\rapid_common.dir\puml\PumlWriter.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Workspace/rapid-craft/packages/common
+  OBJECT_DIR = packages\common\CMakeFiles\rapid_common.dir
+  OBJECT_FILE_DIR = packages\common\CMakeFiles\rapid_common.dir\puml
+  TARGET_SUPPORT_DIR = packages\common\CMakeFiles\rapid_common.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target rapid_common
+
+
+#############################################
+# Link the static library packages\common\librapid_common.a
+
+build packages/common/librapid_common.a: CXX_STATIC_LIBRARY_LINKER__rapid_common_ packages/common/CMakeFiles/rapid_common.dir/storage/SqliteStore.cpp.obj packages/common/CMakeFiles/rapid_common.dir/puml/PumlWriter.cpp.obj
+  OBJECT_DIR = packages\common\CMakeFiles\rapid_common.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = packages\common\librapid_common.a
+  TARGET_PDB = rapid_common.a.dbg
+  TARGET_SUPPORT_DIR = packages\common\CMakeFiles\rapid_common.dir
+
+
+#############################################
+# Utility command for edit_cache
+
+build packages/common/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\common && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build packages/common/edit_cache: phony packages/common/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build packages/common/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\common && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build packages/common/rebuild_cache: phony packages/common/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Workspace/rapid-craft/CMakeLists.txt
+# =============================================================================
+
 
 #############################################
 # Utility command for intrinsics_gen
@@ -174,79 +244,356 @@ build packages/analyzer/rebuild_cache: phony packages/analyzer/CMakeFiles/rebuil
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target swud_indexer
+# Object build statements for EXECUTABLE target sud-indexer
 
 
 #############################################
-# Order-only phony target for swud_indexer
+# Order-only phony target for sud-indexer
 
-build cmake_object_order_depends_target_swud_indexer: phony || .
+build cmake_object_order_depends_target_sud-indexer: phony || cmake_object_order_depends_target_rapid_common
 
-build packages/swud_indexer/CMakeFiles/swud_indexer.dir/src/main.cpp.obj: CXX_COMPILER__swud_indexer_unscanned_ C$:/Workspace/rapid-craft/packages/swud_indexer/src/main.cpp || cmake_object_order_depends_target_swud_indexer
-  DEP_FILE = packages\swud_indexer\CMakeFiles\swud_indexer.dir\src\main.cpp.obj.d
+build packages/sud/indexer/CMakeFiles/sud-indexer.dir/src/main.cpp.obj: CXX_COMPILER__sud-indexer_unscanned_ C$:/Workspace/rapid-craft/packages/sud/indexer/src/main.cpp || cmake_object_order_depends_target_sud-indexer
+  DEP_FILE = packages\sud\indexer\CMakeFiles\sud-indexer.dir\src\main.cpp.obj.d
   FLAGS = -std=gnu++17
-  INCLUDES = -IC:/Workspace/rapid-craft/packages/swud_indexer/src
-  OBJECT_DIR = packages\swud_indexer\CMakeFiles\swud_indexer.dir
-  OBJECT_FILE_DIR = packages\swud_indexer\CMakeFiles\swud_indexer.dir\src
-  TARGET_SUPPORT_DIR = packages\swud_indexer\CMakeFiles\swud_indexer.dir
+  INCLUDES = -IC:/Workspace/rapid-craft/packages/common
+  OBJECT_DIR = packages\sud\indexer\CMakeFiles\sud-indexer.dir
+  OBJECT_FILE_DIR = packages\sud\indexer\CMakeFiles\sud-indexer.dir\src
+  TARGET_SUPPORT_DIR = packages\sud\indexer\CMakeFiles\sud-indexer.dir
 
-build packages/swud_indexer/CMakeFiles/swud_indexer.dir/src/extractor_clang.cpp.obj: CXX_COMPILER__swud_indexer_unscanned_ C$:/Workspace/rapid-craft/packages/swud_indexer/src/extractor_clang.cpp || cmake_object_order_depends_target_swud_indexer
-  DEP_FILE = packages\swud_indexer\CMakeFiles\swud_indexer.dir\src\extractor_clang.cpp.obj.d
+build packages/sud/indexer/CMakeFiles/sud-indexer.dir/src/extractor_clang.cpp.obj: CXX_COMPILER__sud-indexer_unscanned_ C$:/Workspace/rapid-craft/packages/sud/indexer/src/extractor_clang.cpp || cmake_object_order_depends_target_sud-indexer
+  DEP_FILE = packages\sud\indexer\CMakeFiles\sud-indexer.dir\src\extractor_clang.cpp.obj.d
   FLAGS = -std=gnu++17
-  INCLUDES = -IC:/Workspace/rapid-craft/packages/swud_indexer/src
-  OBJECT_DIR = packages\swud_indexer\CMakeFiles\swud_indexer.dir
-  OBJECT_FILE_DIR = packages\swud_indexer\CMakeFiles\swud_indexer.dir\src
-  TARGET_SUPPORT_DIR = packages\swud_indexer\CMakeFiles\swud_indexer.dir
-
-build packages/swud_indexer/CMakeFiles/swud_indexer.dir/src/storage_sqlite.cpp.obj: CXX_COMPILER__swud_indexer_unscanned_ C$:/Workspace/rapid-craft/packages/swud_indexer/src/storage_sqlite.cpp || cmake_object_order_depends_target_swud_indexer
-  DEP_FILE = packages\swud_indexer\CMakeFiles\swud_indexer.dir\src\storage_sqlite.cpp.obj.d
-  FLAGS = -std=gnu++17
-  INCLUDES = -IC:/Workspace/rapid-craft/packages/swud_indexer/src
-  OBJECT_DIR = packages\swud_indexer\CMakeFiles\swud_indexer.dir
-  OBJECT_FILE_DIR = packages\swud_indexer\CMakeFiles\swud_indexer.dir\src
-  TARGET_SUPPORT_DIR = packages\swud_indexer\CMakeFiles\swud_indexer.dir
+  INCLUDES = -IC:/Workspace/rapid-craft/packages/common
+  OBJECT_DIR = packages\sud\indexer\CMakeFiles\sud-indexer.dir
+  OBJECT_FILE_DIR = packages\sud\indexer\CMakeFiles\sud-indexer.dir\src
+  TARGET_SUPPORT_DIR = packages\sud\indexer\CMakeFiles\sud-indexer.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target swud_indexer
+# Link build statements for EXECUTABLE target sud-indexer
 
 
 #############################################
-# Link the executable packages\swud_indexer\swud_indexer.exe
+# Link the executable packages\sud\indexer\sud-indexer.exe
 
-build packages/swud_indexer/swud_indexer.exe: CXX_EXECUTABLE_LINKER__swud_indexer_ packages/swud_indexer/CMakeFiles/swud_indexer.dir/src/main.cpp.obj packages/swud_indexer/CMakeFiles/swud_indexer.dir/src/extractor_clang.cpp.obj packages/swud_indexer/CMakeFiles/swud_indexer.dir/src/storage_sqlite.cpp.obj | C$:/msys64/mingw64/lib/libsqlite3.dll.a
-  LINK_LIBRARIES = C:/msys64/mingw64/lib/libsqlite3.dll.a  -lclang  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = packages\swud_indexer\CMakeFiles\swud_indexer.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\swud_indexer && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/rapid-craft/packages/swud_indexer && "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/rapid-craft/build/packages/swud_indexer/swud_indexer.exe C:/Workspace/rapid-craft/packages/swud_indexer/swud_indexer.exe"
+build packages/sud/indexer/sud-indexer.exe: CXX_EXECUTABLE_LINKER__sud-indexer_ packages/sud/indexer/CMakeFiles/sud-indexer.dir/src/main.cpp.obj packages/sud/indexer/CMakeFiles/sud-indexer.dir/src/extractor_clang.cpp.obj | packages/common/librapid_common.a C$:/msys64/mingw64/lib/libsqlite3.dll.a || packages/common/librapid_common.a
+  LINK_LIBRARIES = packages/common/librapid_common.a  -lclang  C:/msys64/mingw64/lib/libsqlite3.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = packages\sud\indexer\CMakeFiles\sud-indexer.dir
+  POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = packages\swud_indexer\swud_indexer.exe
-  TARGET_IMPLIB = packages\swud_indexer\libswud_indexer.dll.a
-  TARGET_PDB = swud_indexer.exe.dbg
-  TARGET_SUPPORT_DIR = packages\swud_indexer\CMakeFiles\swud_indexer.dir
+  TARGET_FILE = packages\sud\indexer\sud-indexer.exe
+  TARGET_IMPLIB = packages\sud\indexer\libsud-indexer.dll.a
+  TARGET_PDB = sud-indexer.exe.dbg
+  TARGET_SUPPORT_DIR = packages\sud\indexer\CMakeFiles\sud-indexer.dir
 
 
 #############################################
 # Utility command for edit_cache
 
-build packages/swud_indexer/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\swud_indexer && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+build packages/sud/indexer/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\sud\indexer && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
 
-build packages/swud_indexer/edit_cache: phony packages/swud_indexer/CMakeFiles/edit_cache.util
+build packages/sud/indexer/edit_cache: phony packages/sud/indexer/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build packages/swud_indexer/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\swud_indexer && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+build packages/sud/indexer/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\sud\indexer && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build packages/swud_indexer/rebuild_cache: phony packages/swud_indexer/CMakeFiles/rebuild_cache.util
+build packages/sud/indexer/rebuild_cache: phony packages/sud/indexer/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Workspace/rapid-craft/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build packages/sud/diagrams/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\sud\diagrams && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build packages/sud/diagrams/edit_cache: phony packages/sud/diagrams/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build packages/sud/diagrams/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\sud\diagrams && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build packages/sud/diagrams/rebuild_cache: phony packages/sud/diagrams/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Workspace/rapid-craft/packages/sud/diagrams/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sud-call-graph
+
+
+#############################################
+# Order-only phony target for sud-call-graph
+
+build cmake_object_order_depends_target_sud-call-graph: phony || cmake_object_order_depends_target_rapid_common
+
+build packages/sud/diagrams/call-graph/CMakeFiles/sud-call-graph.dir/src/main.cpp.obj: CXX_COMPILER__sud-call-graph_unscanned_ C$:/Workspace/rapid-craft/packages/sud/diagrams/call-graph/src/main.cpp || cmake_object_order_depends_target_sud-call-graph
+  DEP_FILE = packages\sud\diagrams\call-graph\CMakeFiles\sud-call-graph.dir\src\main.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Workspace/rapid-craft/packages/common
+  OBJECT_DIR = packages\sud\diagrams\call-graph\CMakeFiles\sud-call-graph.dir
+  OBJECT_FILE_DIR = packages\sud\diagrams\call-graph\CMakeFiles\sud-call-graph.dir\src
+  TARGET_SUPPORT_DIR = packages\sud\diagrams\call-graph\CMakeFiles\sud-call-graph.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sud-call-graph
+
+
+#############################################
+# Link the executable packages\sud\diagrams\call-graph\sud-call-graph.exe
+
+build packages/sud/diagrams/call-graph/sud-call-graph.exe: CXX_EXECUTABLE_LINKER__sud-call-graph_ packages/sud/diagrams/call-graph/CMakeFiles/sud-call-graph.dir/src/main.cpp.obj | packages/common/librapid_common.a C$:/msys64/mingw64/lib/libsqlite3.dll.a || packages/common/librapid_common.a
+  LINK_LIBRARIES = packages/common/librapid_common.a  C:/msys64/mingw64/lib/libsqlite3.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = packages\sud\diagrams\call-graph\CMakeFiles\sud-call-graph.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = packages\sud\diagrams\call-graph\sud-call-graph.exe
+  TARGET_IMPLIB = packages\sud\diagrams\call-graph\libsud-call-graph.dll.a
+  TARGET_PDB = sud-call-graph.exe.dbg
+  TARGET_SUPPORT_DIR = packages\sud\diagrams\call-graph\CMakeFiles\sud-call-graph.dir
+
+
+#############################################
+# Utility command for edit_cache
+
+build packages/sud/diagrams/call-graph/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\sud\diagrams\call-graph && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build packages/sud/diagrams/call-graph/edit_cache: phony packages/sud/diagrams/call-graph/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build packages/sud/diagrams/call-graph/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\sud\diagrams\call-graph && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build packages/sud/diagrams/call-graph/rebuild_cache: phony packages/sud/diagrams/call-graph/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Workspace/rapid-craft/packages/sud/diagrams/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sud-class-diagram
+
+
+#############################################
+# Order-only phony target for sud-class-diagram
+
+build cmake_object_order_depends_target_sud-class-diagram: phony || cmake_object_order_depends_target_rapid_common
+
+build packages/sud/diagrams/class-diagram/CMakeFiles/sud-class-diagram.dir/src/main.cpp.obj: CXX_COMPILER__sud-class-diagram_unscanned_ C$:/Workspace/rapid-craft/packages/sud/diagrams/class-diagram/src/main.cpp || cmake_object_order_depends_target_sud-class-diagram
+  DEP_FILE = packages\sud\diagrams\class-diagram\CMakeFiles\sud-class-diagram.dir\src\main.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Workspace/rapid-craft/packages/common
+  OBJECT_DIR = packages\sud\diagrams\class-diagram\CMakeFiles\sud-class-diagram.dir
+  OBJECT_FILE_DIR = packages\sud\diagrams\class-diagram\CMakeFiles\sud-class-diagram.dir\src
+  TARGET_SUPPORT_DIR = packages\sud\diagrams\class-diagram\CMakeFiles\sud-class-diagram.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sud-class-diagram
+
+
+#############################################
+# Link the executable packages\sud\diagrams\class-diagram\sud-class-diagram.exe
+
+build packages/sud/diagrams/class-diagram/sud-class-diagram.exe: CXX_EXECUTABLE_LINKER__sud-class-diagram_ packages/sud/diagrams/class-diagram/CMakeFiles/sud-class-diagram.dir/src/main.cpp.obj | packages/common/librapid_common.a C$:/msys64/mingw64/lib/libsqlite3.dll.a || packages/common/librapid_common.a
+  LINK_LIBRARIES = packages/common/librapid_common.a  C:/msys64/mingw64/lib/libsqlite3.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = packages\sud\diagrams\class-diagram\CMakeFiles\sud-class-diagram.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = packages\sud\diagrams\class-diagram\sud-class-diagram.exe
+  TARGET_IMPLIB = packages\sud\diagrams\class-diagram\libsud-class-diagram.dll.a
+  TARGET_PDB = sud-class-diagram.exe.dbg
+  TARGET_SUPPORT_DIR = packages\sud\diagrams\class-diagram\CMakeFiles\sud-class-diagram.dir
+
+
+#############################################
+# Utility command for edit_cache
+
+build packages/sud/diagrams/class-diagram/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\sud\diagrams\class-diagram && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build packages/sud/diagrams/class-diagram/edit_cache: phony packages/sud/diagrams/class-diagram/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build packages/sud/diagrams/class-diagram/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\sud\diagrams\class-diagram && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build packages/sud/diagrams/class-diagram/rebuild_cache: phony packages/sud/diagrams/class-diagram/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Workspace/rapid-craft/packages/sud/diagrams/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sud-sequence-diagram
+
+
+#############################################
+# Order-only phony target for sud-sequence-diagram
+
+build cmake_object_order_depends_target_sud-sequence-diagram: phony || cmake_object_order_depends_target_rapid_common
+
+build packages/sud/diagrams/sequence-diagram/CMakeFiles/sud-sequence-diagram.dir/src/main.cpp.obj: CXX_COMPILER__sud-sequence-diagram_unscanned_ C$:/Workspace/rapid-craft/packages/sud/diagrams/sequence-diagram/src/main.cpp || cmake_object_order_depends_target_sud-sequence-diagram
+  DEP_FILE = packages\sud\diagrams\sequence-diagram\CMakeFiles\sud-sequence-diagram.dir\src\main.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Workspace/rapid-craft/packages/common
+  OBJECT_DIR = packages\sud\diagrams\sequence-diagram\CMakeFiles\sud-sequence-diagram.dir
+  OBJECT_FILE_DIR = packages\sud\diagrams\sequence-diagram\CMakeFiles\sud-sequence-diagram.dir\src
+  TARGET_SUPPORT_DIR = packages\sud\diagrams\sequence-diagram\CMakeFiles\sud-sequence-diagram.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sud-sequence-diagram
+
+
+#############################################
+# Link the executable packages\sud\diagrams\sequence-diagram\sud-sequence-diagram.exe
+
+build packages/sud/diagrams/sequence-diagram/sud-sequence-diagram.exe: CXX_EXECUTABLE_LINKER__sud-sequence-diagram_ packages/sud/diagrams/sequence-diagram/CMakeFiles/sud-sequence-diagram.dir/src/main.cpp.obj | packages/common/librapid_common.a C$:/msys64/mingw64/lib/libsqlite3.dll.a || packages/common/librapid_common.a
+  LINK_LIBRARIES = packages/common/librapid_common.a  C:/msys64/mingw64/lib/libsqlite3.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = packages\sud\diagrams\sequence-diagram\CMakeFiles\sud-sequence-diagram.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = packages\sud\diagrams\sequence-diagram\sud-sequence-diagram.exe
+  TARGET_IMPLIB = packages\sud\diagrams\sequence-diagram\libsud-sequence-diagram.dll.a
+  TARGET_PDB = sud-sequence-diagram.exe.dbg
+  TARGET_SUPPORT_DIR = packages\sud\diagrams\sequence-diagram\CMakeFiles\sud-sequence-diagram.dir
+
+
+#############################################
+# Utility command for edit_cache
+
+build packages/sud/diagrams/sequence-diagram/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\sud\diagrams\sequence-diagram && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build packages/sud/diagrams/sequence-diagram/edit_cache: phony packages/sud/diagrams/sequence-diagram/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build packages/sud/diagrams/sequence-diagram/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\sud\diagrams\sequence-diagram && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build packages/sud/diagrams/sequence-diagram/rebuild_cache: phony packages/sud/diagrams/sequence-diagram/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Workspace/rapid-craft/packages/sud/diagrams/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sud-activity-diagram
+
+
+#############################################
+# Order-only phony target for sud-activity-diagram
+
+build cmake_object_order_depends_target_sud-activity-diagram: phony || cmake_object_order_depends_target_rapid_common
+
+build packages/sud/diagrams/activity-diagram/CMakeFiles/sud-activity-diagram.dir/src/main.cpp.obj: CXX_COMPILER__sud-activity-diagram_unscanned_ C$:/Workspace/rapid-craft/packages/sud/diagrams/activity-diagram/src/main.cpp || cmake_object_order_depends_target_sud-activity-diagram
+  DEP_FILE = packages\sud\diagrams\activity-diagram\CMakeFiles\sud-activity-diagram.dir\src\main.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Workspace/rapid-craft/packages/common
+  OBJECT_DIR = packages\sud\diagrams\activity-diagram\CMakeFiles\sud-activity-diagram.dir
+  OBJECT_FILE_DIR = packages\sud\diagrams\activity-diagram\CMakeFiles\sud-activity-diagram.dir\src
+  TARGET_SUPPORT_DIR = packages\sud\diagrams\activity-diagram\CMakeFiles\sud-activity-diagram.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sud-activity-diagram
+
+
+#############################################
+# Link the executable packages\sud\diagrams\activity-diagram\sud-activity-diagram.exe
+
+build packages/sud/diagrams/activity-diagram/sud-activity-diagram.exe: CXX_EXECUTABLE_LINKER__sud-activity-diagram_ packages/sud/diagrams/activity-diagram/CMakeFiles/sud-activity-diagram.dir/src/main.cpp.obj | packages/common/librapid_common.a C$:/msys64/mingw64/lib/libsqlite3.dll.a || packages/common/librapid_common.a
+  LINK_LIBRARIES = packages/common/librapid_common.a  C:/msys64/mingw64/lib/libsqlite3.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = packages\sud\diagrams\activity-diagram\CMakeFiles\sud-activity-diagram.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = packages\sud\diagrams\activity-diagram\sud-activity-diagram.exe
+  TARGET_IMPLIB = packages\sud\diagrams\activity-diagram\libsud-activity-diagram.dll.a
+  TARGET_PDB = sud-activity-diagram.exe.dbg
+  TARGET_SUPPORT_DIR = packages\sud\diagrams\activity-diagram\CMakeFiles\sud-activity-diagram.dir
+
+
+#############################################
+# Utility command for edit_cache
+
+build packages/sud/diagrams/activity-diagram/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\sud\diagrams\activity-diagram && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build packages/sud/diagrams/activity-diagram/edit_cache: phony packages/sud/diagrams/activity-diagram/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build packages/sud/diagrams/activity-diagram/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Workspace\rapid-craft\build\packages\sud\diagrams\activity-diagram && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Workspace\rapid-craft -BC:\Workspace\rapid-craft\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build packages/sud/diagrams/activity-diagram/rebuild_cache: phony packages/sud/diagrams/activity-diagram/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -257,15 +604,35 @@ build clang-tablegen-targets: phony packages/analyzer/clang-tablegen-targets
 
 build intrinsics_gen: phony packages/analyzer/intrinsics_gen
 
+build librapid_common.a: phony packages/common/librapid_common.a
+
 build omp_gen: phony packages/analyzer/omp_gen
 
 build rapid-craft-analyzer: phony packages/analyzer/rapid-craft-analyzer.exe
 
 build rapid-craft-analyzer.exe: phony packages/analyzer/rapid-craft-analyzer.exe
 
-build swud_indexer: phony packages/swud_indexer/swud_indexer.exe
+build rapid_common: phony packages/common/librapid_common.a
 
-build swud_indexer.exe: phony packages/swud_indexer/swud_indexer.exe
+build sud-activity-diagram: phony packages/sud/diagrams/activity-diagram/sud-activity-diagram.exe
+
+build sud-activity-diagram.exe: phony packages/sud/diagrams/activity-diagram/sud-activity-diagram.exe
+
+build sud-call-graph: phony packages/sud/diagrams/call-graph/sud-call-graph.exe
+
+build sud-call-graph.exe: phony packages/sud/diagrams/call-graph/sud-call-graph.exe
+
+build sud-class-diagram: phony packages/sud/diagrams/class-diagram/sud-class-diagram.exe
+
+build sud-class-diagram.exe: phony packages/sud/diagrams/class-diagram/sud-class-diagram.exe
+
+build sud-indexer: phony packages/sud/indexer/sud-indexer.exe
+
+build sud-indexer.exe: phony packages/sud/indexer/sud-indexer.exe
+
+build sud-sequence-diagram: phony packages/sud/diagrams/sequence-diagram/sud-sequence-diagram.exe
+
+build sud-sequence-diagram.exe: phony packages/sud/diagrams/sequence-diagram/sud-sequence-diagram.exe
 
 build target_parser_gen: phony packages/analyzer/target_parser_gen
 
@@ -279,7 +646,7 @@ build vt_gen: phony packages/analyzer/vt_gen
 #############################################
 # Folder: C:/Workspace/rapid-craft/build
 
-build all: phony packages/analyzer/all packages/swud_indexer/all
+build all: phony packages/common/all packages/analyzer/all packages/sud/indexer/all packages/sud/diagrams/all
 
 # =============================================================================
 
@@ -291,9 +658,51 @@ build packages/analyzer/all: phony packages/analyzer/rapid-craft-analyzer.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Workspace/rapid-craft/build/packages/swud_indexer
+# Folder: C:/Workspace/rapid-craft/build/packages/common
 
-build packages/swud_indexer/all: phony packages/swud_indexer/swud_indexer.exe
+build packages/common/all: phony packages/common/librapid_common.a
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Workspace/rapid-craft/build/packages/sud/diagrams
+
+build packages/sud/diagrams/all: phony packages/sud/diagrams/call-graph/all packages/sud/diagrams/class-diagram/all packages/sud/diagrams/sequence-diagram/all packages/sud/diagrams/activity-diagram/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Workspace/rapid-craft/build/packages/sud/diagrams/activity-diagram
+
+build packages/sud/diagrams/activity-diagram/all: phony packages/sud/diagrams/activity-diagram/sud-activity-diagram.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Workspace/rapid-craft/build/packages/sud/diagrams/call-graph
+
+build packages/sud/diagrams/call-graph/all: phony packages/sud/diagrams/call-graph/sud-call-graph.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Workspace/rapid-craft/build/packages/sud/diagrams/class-diagram
+
+build packages/sud/diagrams/class-diagram/all: phony packages/sud/diagrams/class-diagram/sud-class-diagram.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Workspace/rapid-craft/build/packages/sud/diagrams/sequence-diagram
+
+build packages/sud/diagrams/sequence-diagram/all: phony packages/sud/diagrams/sequence-diagram/sud-sequence-diagram.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Workspace/rapid-craft/build/packages/sud/indexer
+
+build packages/sud/indexer/all: phony packages/sud/indexer/sud-indexer.exe
 
 # =============================================================================
 # Built-in targets
@@ -302,14 +711,14 @@ build packages/swud_indexer/all: phony packages/swud_indexer/swud_indexer.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Workspace/rapid-craft/build/cmake_install.cmake C$:/Workspace/rapid-craft/build/packages/analyzer/cmake_install.cmake C$:/Workspace/rapid-craft/build/packages/swud_indexer/cmake_install.cmake: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakePushCheckState.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindLibXml2.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindPkgConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindSQLite3.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindZLIB.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Linker/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/SelectLibraryConfigurations.cmake C$:/Workspace/rapid-craft/CMakeLists.txt C$:/Workspace/rapid-craft/packages/analyzer/CMakeLists.txt C$:/Workspace/rapid-craft/packages/swud_indexer/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/clang/ClangConfig.cmake C$:/msys64/mingw64/lib/cmake/clang/ClangConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/clang/ClangTargets-release.cmake C$:/msys64/mingw64/lib/cmake/clang/ClangTargets.cmake C$:/msys64/mingw64/lib/cmake/llvm/FindFFI.cmake C$:/msys64/mingw64/lib/cmake/llvm/Findzstd.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVM-Config.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMConfig.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMExports-release.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMExports.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdConfig.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdTargets-release.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdTargets.cmake CMakeCache.txt CMakeFiles/4.2.1/CMakeCCompiler.cmake CMakeFiles/4.2.1/CMakeCXXCompiler.cmake CMakeFiles/4.2.1/CMakeRCCompiler.cmake CMakeFiles/4.2.1/CMakeSystem.cmake
+build build.ninja C$:/Workspace/rapid-craft/build/cmake_install.cmake C$:/Workspace/rapid-craft/build/packages/common/cmake_install.cmake C$:/Workspace/rapid-craft/build/packages/analyzer/cmake_install.cmake C$:/Workspace/rapid-craft/build/packages/sud/indexer/cmake_install.cmake C$:/Workspace/rapid-craft/build/packages/sud/diagrams/cmake_install.cmake C$:/Workspace/rapid-craft/build/packages/sud/diagrams/call-graph/cmake_install.cmake C$:/Workspace/rapid-craft/build/packages/sud/diagrams/class-diagram/cmake_install.cmake C$:/Workspace/rapid-craft/build/packages/sud/diagrams/sequence-diagram/cmake_install.cmake C$:/Workspace/rapid-craft/build/packages/sud/diagrams/activity-diagram/cmake_install.cmake: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakePushCheckState.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindLibXml2.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindPkgConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindSQLite3.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindZLIB.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Linker/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/SelectLibraryConfigurations.cmake C$:/Workspace/rapid-craft/CMakeLists.txt C$:/Workspace/rapid-craft/packages/analyzer/CMakeLists.txt C$:/Workspace/rapid-craft/packages/common/CMakeLists.txt C$:/Workspace/rapid-craft/packages/sud/diagrams/CMakeLists.txt C$:/Workspace/rapid-craft/packages/sud/diagrams/activity-diagram/CMakeLists.txt C$:/Workspace/rapid-craft/packages/sud/diagrams/call-graph/CMakeLists.txt C$:/Workspace/rapid-craft/packages/sud/diagrams/class-diagram/CMakeLists.txt C$:/Workspace/rapid-craft/packages/sud/diagrams/sequence-diagram/CMakeLists.txt C$:/Workspace/rapid-craft/packages/sud/indexer/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/clang/ClangConfig.cmake C$:/msys64/mingw64/lib/cmake/clang/ClangConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/clang/ClangTargets-release.cmake C$:/msys64/mingw64/lib/cmake/clang/ClangTargets.cmake C$:/msys64/mingw64/lib/cmake/llvm/FindFFI.cmake C$:/msys64/mingw64/lib/cmake/llvm/Findzstd.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVM-Config.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMConfig.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMExports-release.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMExports.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdConfig.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdTargets-release.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdTargets.cmake CMakeCache.txt CMakeFiles/4.2.1/CMakeCCompiler.cmake CMakeFiles/4.2.1/CMakeCXXCompiler.cmake CMakeFiles/4.2.1/CMakeRCCompiler.cmake CMakeFiles/4.2.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakePushCheckState.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindLibXml2.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindPkgConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindSQLite3.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindZLIB.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Linker/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/SelectLibraryConfigurations.cmake C$:/Workspace/rapid-craft/CMakeLists.txt C$:/Workspace/rapid-craft/packages/analyzer/CMakeLists.txt C$:/Workspace/rapid-craft/packages/swud_indexer/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/clang/ClangConfig.cmake C$:/msys64/mingw64/lib/cmake/clang/ClangConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/clang/ClangTargets-release.cmake C$:/msys64/mingw64/lib/cmake/clang/ClangTargets.cmake C$:/msys64/mingw64/lib/cmake/llvm/FindFFI.cmake C$:/msys64/mingw64/lib/cmake/llvm/Findzstd.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVM-Config.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMConfig.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMExports-release.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMExports.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdConfig.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdTargets-release.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdTargets.cmake CMakeCache.txt CMakeFiles/4.2.1/CMakeCCompiler.cmake CMakeFiles/4.2.1/CMakeCXXCompiler.cmake CMakeFiles/4.2.1/CMakeRCCompiler.cmake CMakeFiles/4.2.1/CMakeSystem.cmake: phony
+build C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakePushCheckState.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindLibXml2.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindPkgConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindSQLite3.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/FindZLIB.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Linker/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.2/Modules/SelectLibraryConfigurations.cmake C$:/Workspace/rapid-craft/CMakeLists.txt C$:/Workspace/rapid-craft/packages/analyzer/CMakeLists.txt C$:/Workspace/rapid-craft/packages/common/CMakeLists.txt C$:/Workspace/rapid-craft/packages/sud/diagrams/CMakeLists.txt C$:/Workspace/rapid-craft/packages/sud/diagrams/activity-diagram/CMakeLists.txt C$:/Workspace/rapid-craft/packages/sud/diagrams/call-graph/CMakeLists.txt C$:/Workspace/rapid-craft/packages/sud/diagrams/class-diagram/CMakeLists.txt C$:/Workspace/rapid-craft/packages/sud/diagrams/sequence-diagram/CMakeLists.txt C$:/Workspace/rapid-craft/packages/sud/indexer/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/clang/ClangConfig.cmake C$:/msys64/mingw64/lib/cmake/clang/ClangConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/clang/ClangTargets-release.cmake C$:/msys64/mingw64/lib/cmake/clang/ClangTargets.cmake C$:/msys64/mingw64/lib/cmake/llvm/FindFFI.cmake C$:/msys64/mingw64/lib/cmake/llvm/Findzstd.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVM-Config.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMConfig.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMExports-release.cmake C$:/msys64/mingw64/lib/cmake/llvm/LLVMExports.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdConfig.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdTargets-release.cmake C$:/msys64/mingw64/lib/cmake/zstd/zstdTargets.cmake CMakeCache.txt CMakeFiles/4.2.1/CMakeCCompiler.cmake CMakeFiles/4.2.1/CMakeCXXCompiler.cmake CMakeFiles/4.2.1/CMakeRCCompiler.cmake CMakeFiles/4.2.1/CMakeSystem.cmake: phony
 
 
 #############################################

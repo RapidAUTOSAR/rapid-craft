@@ -32,3 +32,14 @@ packages\analyzer\rapid-craft-analyzer.exe `
    --emit=puml `
    --stdlib-leaf=on `
    --indirect-label=var
+
+build\packages\sud\indexer\sud-indexer.exe `
+  --db sud.db `
+  --src sample\some_test.c `
+  -- -std=c17 -Iinclude
+
+build\packages\sud\diagrams\call-graph\sud-call-graph.exe `
+  --db sud.db `
+  --out callgraph_main_d3.puml `
+  --root main `
+  --depth 3

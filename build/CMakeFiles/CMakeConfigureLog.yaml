@@ -211,7 +211,7 @@ events:
       
       The output was:
       1
-      C:/msys64/mingw64/bin/ld: cannot find C:/Users/이현규/AppData/Local/Temp/CMakeCCompilerId-84c867.o: No such file or directory
+      C:/msys64/mingw64/bin/ld: cannot find C:/Users/이현규/AppData/Local/Temp/CMakeCCompilerId-bfcc0d.o: No such file or directory
       clang: error: linker command failed with exit code 1 (use -v to see invocation)
       
       
@@ -1914,7 +1914,7 @@ events:
       
       The output was:
       1
-      C:/msys64/mingw64/bin/ld: cannot find C:/Users/이현규/AppData/Local/Temp/CMakeCXXCompilerId-e88451.o: No such file or directory
+      C:/msys64/mingw64/bin/ld: cannot find C:/Users/이현규/AppData/Local/Temp/CMakeCXXCompilerId-bdcb89.o: No such file or directory
       clang++: error: linker command failed with exit code 1 (use -v to see invocation)
       
       
@@ -2805,8 +2805,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1b6yjs"
-      binary: "C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1b6yjs"
+      source: "C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-6bouot"
+      binary: "C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-6bouot"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/mingw64/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -2816,16 +2816,16 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1b6yjs'
+        Change Dir: 'C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-6bouot'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_3cdbb
-        [1/2] C:\\msys64\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_3cdbb.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_3cdbb.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_3cdbb.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_8afa1
+        [1/2] C:\\msys64\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_8afa1.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_8afa1.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_8afa1.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"
         clang version 21.1.8
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
          (in-process)
-         "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1b6yjs -v -fcoverage-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1b6yjs -resource-dir C:/msys64/mingw64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_3cdbb.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_3cdbb.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/21/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o CMakeFiles/cmTC_3cdbb.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"
+         "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-6bouot -v -fcoverage-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-6bouot -resource-dir C:/msys64/mingw64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_8afa1.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_8afa1.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/21/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o CMakeFiles/cmTC_8afa1.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"
         clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-w64-windows-gnu
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include"
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/usr/include"
@@ -2834,12 +2834,12 @@ events:
          C:/msys64/mingw64/lib/clang/21/include
          C:/msys64/mingw64/include
         End of search list.
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\clang.exe  -v -Wl,-v CMakeFiles/cmTC_3cdbb.dir/CMakeCCompilerABI.c.obj -o cmTC_3cdbb.exe -Wl,--out-implib,libcmTC_3cdbb.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\clang.exe  -v -Wl,-v CMakeFiles/cmTC_8afa1.dir/CMakeCCompilerABI.c.obj -o cmTC_8afa1.exe -Wl,--out-implib,libcmTC_8afa1.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         clang version 21.1.8
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
-         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_3cdbb.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v CMakeFiles/cmTC_3cdbb.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_3cdbb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_8afa1.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v CMakeFiles/cmTC_8afa1.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_8afa1.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.45.1
         
       exitCode: 0
@@ -2871,16 +2871,16 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1b6yjs']
+        ignore line: [Change Dir: 'C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-6bouot']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_3cdbb]
-        ignore line: [[1/2] C:\\msys64\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_3cdbb.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_3cdbb.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_3cdbb.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_8afa1]
+        ignore line: [[1/2] C:\\msys64\\mingw64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_8afa1.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_8afa1.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_8afa1.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"]
         ignore line: [clang version 21.1.8]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1b6yjs -v -fcoverage-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1b6yjs -resource-dir C:/msys64/mingw64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_3cdbb.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_3cdbb.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/21/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o CMakeFiles/cmTC_3cdbb.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"]
+        ignore line: [ "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-6bouot -v -fcoverage-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-6bouot -resource-dir C:/msys64/mingw64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_8afa1.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_8afa1.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/21/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o CMakeFiles/cmTC_8afa1.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"]
         ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-w64-windows-gnu]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include"]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/usr/include"]
@@ -2889,18 +2889,18 @@ events:
         ignore line: [ C:/msys64/mingw64/lib/clang/21/include]
         ignore line: [ C:/msys64/mingw64/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\clang.exe  -v -Wl -v CMakeFiles/cmTC_3cdbb.dir/CMakeCCompilerABI.c.obj -o cmTC_3cdbb.exe -Wl --out-implib libcmTC_3cdbb.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\clang.exe  -v -Wl -v CMakeFiles/cmTC_8afa1.dir/CMakeCCompilerABI.c.obj -o cmTC_8afa1.exe -Wl --out-implib libcmTC_8afa1.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [clang version 21.1.8]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
-        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_3cdbb.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v CMakeFiles/cmTC_3cdbb.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_3cdbb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_8afa1.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v CMakeFiles/cmTC_8afa1.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_8afa1.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/msys64/mingw64/bin/ld] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_3cdbb.exe] ==> ignore
+          arg [cmTC_8afa1.exe] ==> ignore
           arg [C:/msys64/mingw64/lib/crt2.o] ==> obj [C:/msys64/mingw64/lib/crt2.o]
           arg [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -2908,9 +2908,9 @@ events:
           arg [-LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib] ==> dir [C:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib]
           arg [-LC:/msys64/mingw64/lib] ==> dir [C:/msys64/mingw64/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_3cdbb.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_8afa1.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_3cdbb.dll.a] ==> ignore
+          arg [libcmTC_8afa1.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2968,8 +2968,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-31v9ni"
-      binary: "C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-31v9ni"
+      source: "C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1opden"
+      binary: "C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1opden"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/mingw64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -2980,16 +2980,16 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-31v9ni'
+        Change Dir: 'C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1opden'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_5dd36
-        [1/2] C:\\msys64\\mingw64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_5dd36.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_5dd36.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_5dd36.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_d8465
+        [1/2] C:\\msys64\\mingw64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_d8465.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_d8465.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_d8465.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"
         clang version 21.1.8
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
          (in-process)
-         "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-31v9ni -v -fcoverage-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-31v9ni -resource-dir C:/msys64/mingw64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_5dd36.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_5dd36.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/15.2.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/15.2.0/backward -internal-isystem C:/msys64/mingw64/include/c++/15.2.0 -internal-isystem C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/15.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/backward -internal-isystem C:/msys64/mingw64/lib/clang/21/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_5dd36.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"
+         "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1opden -v -fcoverage-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1opden -resource-dir C:/msys64/mingw64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_d8465.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_d8465.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/15.2.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/15.2.0/backward -internal-isystem C:/msys64/mingw64/include/c++/15.2.0 -internal-isystem C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/15.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/backward -internal-isystem C:/msys64/mingw64/lib/clang/21/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_d8465.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"
         clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-w64-windows-gnu
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++"
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"
@@ -3019,12 +3019,12 @@ events:
          C:/msys64/mingw64/lib/clang/21/include
          C:/msys64/mingw64/include
         End of search list.
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\clang++.exe  -v -Wl,-v CMakeFiles/cmTC_5dd36.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_5dd36.exe -Wl,--out-implib,libcmTC_5dd36.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\clang++.exe  -v -Wl,-v CMakeFiles/cmTC_d8465.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_d8465.exe -Wl,--out-implib,libcmTC_d8465.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         clang version 21.1.8
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
-         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_5dd36.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v CMakeFiles/cmTC_5dd36.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_5dd36.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_d8465.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v CMakeFiles/cmTC_d8465.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_d8465.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.45.1
         
       exitCode: 0
@@ -3062,16 +3062,16 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-31v9ni']
+        ignore line: [Change Dir: 'C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1opden']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_5dd36]
-        ignore line: [[1/2] C:\\msys64\\mingw64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_5dd36.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_5dd36.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_5dd36.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_d8465]
+        ignore line: [[1/2] C:\\msys64\\mingw64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_d8465.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_d8465.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_d8465.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [clang version 21.1.8]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-31v9ni -v -fcoverage-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-31v9ni -resource-dir C:/msys64/mingw64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_5dd36.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_5dd36.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/15.2.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/15.2.0/backward -internal-isystem C:/msys64/mingw64/include/c++/15.2.0 -internal-isystem C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/15.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/backward -internal-isystem C:/msys64/mingw64/lib/clang/21/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_5dd36.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [ "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1opden -v -fcoverage-compilation-dir=C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-1opden -resource-dir C:/msys64/mingw64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_d8465.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_d8465.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/15.2.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/15.2.0/backward -internal-isystem C:/msys64/mingw64/include/c++/15.2.0 -internal-isystem C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/15.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/backward -internal-isystem C:/msys64/mingw64/lib/clang/21/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_d8465.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-w64-windows-gnu]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++"]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"]
@@ -3101,18 +3101,18 @@ events:
         ignore line: [ C:/msys64/mingw64/lib/clang/21/include]
         ignore line: [ C:/msys64/mingw64/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\clang++.exe  -v -Wl -v CMakeFiles/cmTC_5dd36.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_5dd36.exe -Wl --out-implib libcmTC_5dd36.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\clang++.exe  -v -Wl -v CMakeFiles/cmTC_d8465.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_d8465.exe -Wl --out-implib libcmTC_d8465.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [clang version 21.1.8]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
-        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_5dd36.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v CMakeFiles/cmTC_5dd36.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_5dd36.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_d8465.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v CMakeFiles/cmTC_d8465.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_d8465.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/msys64/mingw64/bin/ld] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_5dd36.exe] ==> ignore
+          arg [cmTC_d8465.exe] ==> ignore
           arg [C:/msys64/mingw64/lib/crt2.o] ==> obj [C:/msys64/mingw64/lib/crt2.o]
           arg [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -3120,9 +3120,9 @@ events:
           arg [-LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib] ==> dir [C:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib]
           arg [-LC:/msys64/mingw64/lib] ==> dir [C:/msys64/mingw64/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_5dd36.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_d8465.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_5dd36.dll.a] ==> ignore
+          arg [libcmTC_d8465.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3174,9 +3174,8 @@ events:
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPkgConfig.cmake:517 (find_program)"
-      - "C:/msys64/mingw64/lib/cmake/llvm/FindFFI.cmake:26 (find_package)"
-      - "C:/msys64/mingw64/lib/cmake/llvm/LLVMConfig.cmake:267 (find_package)"
-      - "packages/analyzer/CMakeLists.txt:13 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindSQLite3.cmake:61 (find_package)"
+      - "packages/common/CMakeLists.txt:11 (find_package)"
     mode: "program"
     variable: "PKG_CONFIG_EXECUTABLE"
     description: "pkg-config executable"
@@ -3567,6 +3566,169 @@ events:
   -
     kind: "find-v1"
     backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindSQLite3.cmake:67 (find_path)"
+      - "packages/common/CMakeLists.txt:11 (find_package)"
+    mode: "path"
+    variable: "SQLite3_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sqlite3.h"
+    candidate_directories:
+      - "C:/msys64/mingw64/include/"
+      - "C:/msys64/mingw64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/OpenSSL-Win64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Ruby33-x64/bin/"
+      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\uc774\ud604\uaddc/AppData/Roaming/npm/"
+      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/SOOP/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/rapid_craft/include/"
+      - "C:/Program Files (x86)/rapid_craft/"
+    found: "C:/msys64/mingw64/include/"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/msys64/mingw64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Ruby33-x64\\bin"
+        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\SOOP"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rapid_craft"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rapid_craft"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindSQLite3.cmake:74 (find_library)"
+      - "packages/common/CMakeLists.txt:11 (find_package)"
+    mode: "library"
+    variable: "SQLite3_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sqlite3"
+      - "sqlite"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+      - "C:/msys64/mingw64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/OpenSSL-Win64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Ruby33-x64/bin/"
+      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\uc774\ud604\uaddc/AppData/Roaming/npm/"
+      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/SOOP/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/rapid_craft/lib/"
+      - "C:/Program Files (x86)/rapid_craft/"
+      - "C:/Program Files (x86)/rapid_craft/bin/"
+      - "/bin/"
+    found: "C:/msys64/mingw64/lib/libsqlite3.dll.a"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/msys64/mingw64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Ruby33-x64\\bin"
+        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\SOOP"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rapid_craft"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rapid_craft"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/rapid_craft/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
       - "C:/msys64/mingw64/lib/cmake/llvm/FindFFI.cmake:29 (find_path)"
       - "C:/msys64/mingw64/lib/cmake/llvm/LLVMConfig.cmake:267 (find_package)"
       - "packages/analyzer/CMakeLists.txt:13 (find_package)"
@@ -3824,8 +3986,8 @@ events:
     checks:
       - "Performing Test HAVE_FFI_CALL"
     directories:
-      source: "C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-ni6dqu"
-      binary: "C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-ni6dqu"
+      source: "C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-so4xcd"
+      binary: "C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-so4xcd"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/mingw64/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -3836,11 +3998,11 @@ events:
       variable: "HAVE_FFI_CALL"
       cached: true
       stdout: |
-        Change Dir: 'C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-ni6dqu'
+        Change Dir: 'C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-so4xcd'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_024fa
-        [1/2] C:\\msys64\\mingw64\\bin\\clang.exe -DHAVE_FFI_CALL   -MD -MT CMakeFiles/cmTC_024fa.dir/src.c.obj -MF CMakeFiles\\cmTC_024fa.dir\\src.c.obj.d -o CMakeFiles/cmTC_024fa.dir/src.c.obj -c C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-ni6dqu/src.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\clang.exe   CMakeFiles/cmTC_024fa.dir/src.c.obj -o cmTC_024fa.exe -Wl,--out-implib,libcmTC_024fa.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/msys64/mingw64/lib/libffi.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_60e29
+        [1/2] C:\\msys64\\mingw64\\bin\\clang.exe -DHAVE_FFI_CALL   -MD -MT CMakeFiles/cmTC_60e29.dir/src.c.obj -MF CMakeFiles\\cmTC_60e29.dir\\src.c.obj.d -o CMakeFiles/cmTC_60e29.dir/src.c.obj -c C:/Workspace/rapid-craft/build/CMakeFiles/CMakeScratch/TryCompile-so4xcd/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\clang.exe   CMakeFiles/cmTC_60e29.dir/src.c.obj -o cmTC_60e29.exe -Wl,--out-implib,libcmTC_60e29.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/msys64/mingw64/lib/libffi.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -5291,171 +5453,4 @@ events:
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/rapid_craft"
-...
-
----
-events:
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindSQLite3.cmake:67 (find_path)"
-      - "packages/swud_indexer/CMakeLists.txt:16 (find_package)"
-    mode: "path"
-    variable: "SQLite3_INCLUDE_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "sqlite3.h"
-    candidate_directories:
-      - "C:/msys64/mingw64/include/"
-      - "C:/msys64/mingw64/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/OpenSSL-Win64/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/msys64/mingw64/bin/"
-      - "C:/Ruby33-x64/bin/"
-      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
-      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/\uc774\ud604\uaddc/AppData/Roaming/npm/"
-      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/SOOP/"
-      - "C:/Program Files/include/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/include/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/include/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/rapid_craft/include/"
-      - "C:/Program Files (x86)/rapid_craft/"
-    found: "C:/msys64/mingw64/include/"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/msys64/mingw64"
-      ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\OpenSSL-Win64\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Ruby33-x64\\bin"
-        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
-        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Roaming\\npm"
-        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\SOOP"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rapid_craft"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/rapid_craft"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindSQLite3.cmake:74 (find_library)"
-      - "packages/swud_indexer/CMakeLists.txt:16 (find_package)"
-    mode: "library"
-    variable: "SQLite3_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "sqlite3"
-      - "sqlite"
-    candidate_directories:
-      - "C:/msys64/mingw64/lib/"
-      - "C:/msys64/mingw64/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/OpenSSL-Win64/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/msys64/mingw64/bin/"
-      - "C:/Ruby33-x64/bin/"
-      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
-      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/\uc774\ud604\uaddc/AppData/Roaming/npm/"
-      - "C:/Users/\uc774\ud604\uaddc/AppData/Local/SOOP/"
-      - "C:/Program Files/lib/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/lib/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/lib/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/rapid_craft/lib/"
-      - "C:/Program Files (x86)/rapid_craft/"
-      - "C:/Program Files (x86)/rapid_craft/bin/"
-      - "/bin/"
-    found: "C:/msys64/mingw64/lib/libsqlite3.dll.a"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/msys64/mingw64"
-      ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\OpenSSL-Win64\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\msys64\\mingw64\\bin"
-        - "C:\\Ruby33-x64\\bin"
-        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
-        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Roaming\\npm"
-        - "C:\\Users\\\uc774\ud604\uaddc\\AppData\\Local\\SOOP"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rapid_craft"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/rapid_craft"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "C:/Program Files (x86)/rapid_craft/bin"
-        - "C:/Program Files/CMake/bin"
-        - "/bin"
 ...

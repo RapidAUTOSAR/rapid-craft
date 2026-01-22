@@ -1,8 +1,18 @@
 # ninja log v7
-26	648	7908114142170535	packages/swud_indexer/CMakeFiles/swud_indexer.dir/src/main.cpp.obj	76db37aa1801fbd1
-36	798	7908114142275756	packages/swud_indexer/CMakeFiles/swud_indexer.dir/src/storage_sqlite.cpp.obj	3e7c8abf496cdcc8
-30	857	7908114142210540	packages/swud_indexer/CMakeFiles/swud_indexer.dir/src/extractor_clang.cpp.obj	22c1846e9461f5c7
-858	1088	7908114150493822	packages/swud_indexer/swud_indexer.exe	508178234fc58523
-15	8767	7908114142065476	packages/analyzer/CMakeFiles/rapid-craft-analyzer.dir/src/main.cpp.obj	2ae08f5e4af21817
-20	11501	7908114142125425	packages/analyzer/CMakeFiles/rapid-craft-analyzer.dir/src/CallGraphCollector.cpp.obj	3c56ed6711e8b6c9
-11502	12080	7908114256936411	packages/analyzer/rapid-craft-analyzer.exe	b764f883711392f0
+51	662	7908199489886938	packages/sud/diagrams/class-diagram/CMakeFiles/sud-class-diagram.dir/src/main.cpp.obj	e463a5e3cd1b7e21
+60	697	7908199489993362	packages/sud/diagrams/activity-diagram/CMakeFiles/sud-activity-diagram.dir/src/main.cpp.obj	f7388c1e39dda69e
+47	748	7908199489841781	packages/sud/diagrams/call-graph/CMakeFiles/sud-call-graph.dir/src/main.cpp.obj	622d64c25c535403
+22	764	7908199489601717	packages/common/CMakeFiles/rapid_common.dir/puml/PumlWriter.cpp.obj	c57593c97abd0263
+32	568	7908199850571127	packages/common/CMakeFiles/rapid_common.dir/storage/SqliteStore.cpp.obj	ab2901a5e5c10235
+55	808	7908199489926935	packages/sud/diagrams/sequence-diagram/CMakeFiles/sud-sequence-diagram.dir/src/main.cpp.obj	b1b099acfe720f45
+38	882	7908199489761768	packages/sud/indexer/CMakeFiles/sud-indexer.dir/src/main.cpp.obj	bd3df1227b9b6317
+569	675	7908199855940487	packages/common/librapid_common.a	950e8bf420112335
+688	836	7908199857126012	packages/sud/diagrams/class-diagram/sud-class-diagram.exe	6c483a3bd75233f9
+681	838	7908199857056029	packages/sud/diagrams/call-graph/sud-call-graph.exe	53ea5ef318094e61
+42	1068	7908199489801772	packages/sud/indexer/CMakeFiles/sud-indexer.dir/src/extractor_clang.cpp.obj	de20e156021dcfbe
+707	857	7908199857315962	packages/sud/diagrams/activity-diagram/sud-activity-diagram.exe	cdc968e693369650
+698	866	7908199857230765	packages/sud/diagrams/sequence-diagram/sud-sequence-diagram.exe	105051cc2764f831
+26	8508	7908199489631691	packages/analyzer/CMakeFiles/rapid-craft-analyzer.dir/src/main.cpp.obj	2ae08f5e4af21817
+33	11178	7908199489701700	packages/analyzer/CMakeFiles/rapid-craft-analyzer.dir/src/CallGraphCollector.cpp.obj	3c56ed6711e8b6c9
+675	849	7908199856996019	packages/sud/indexer/sud-indexer.exe	71774b374561b2e8
+36	1016	7908199850611198	packages/analyzer/rapid-craft-analyzer.exe	b764f883711392f0
