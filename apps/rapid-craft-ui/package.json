@@ -1,0 +1,29 @@
+{
+  "name": "rapid-craft",
+  "version": "0.1.0",
+  "description": "Clang-based framework for code analysis, architectural restructuring, and AUTOSAR interface & ARXML generation.",
+  "main": "src/main.js",
+  "private": true,
+  "build": {
+    "appId": "com.rapid.craft",
+    "productName": "Rapid Craft",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "node_modules/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^40.0.0",
+    "electron-builder": "^26.4.0"
+  }
+}
